@@ -19,7 +19,7 @@ export default function Contador() {
     //     <div>
     //         <h1>Contador</h1>
     //         <h3>{contador}</h3> {/*chamo a variavel contador atualizada*/}
-    //         <div style={{margin: '10px 0px 10px 0px'}}>
+    //         <div style={{margin: '10px 0px'}}>
     //             {contador === 0 ? 'Vamos começar!' : contador < 0 ? 'Valor negativo' : 'Valor positivo'} {/*operador ternario condicional*/}
     //         </div>
     //         <div>
@@ -51,7 +51,6 @@ export default function Contador() {
 
     return (
         <>
-            <h1>Contador</h1>
             <h3>{contador}</h3>
             <div>
                 <button onClick={aumentar}>Aumentar</button>
