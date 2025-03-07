@@ -4,6 +4,7 @@ import MeuBotao from "./components/meubotao"
 import Contador from "./components/contador"
 import MinhaLista from "./components/minhalista"
 import Filter from "./components/filter"
+import Todo from "./components/todo"
 
 function App() {
 
@@ -25,8 +26,11 @@ function App() {
       {/* <h1>Listas no React</h1>
       <MinhaLista /> */}
 
-      <h1>Efeito colateral em react: useEffect</h1>
-      <Filter/>
+      {/* <h1>Efeito colateral em react: useEffect</h1>
+      <Filter/> */}
+
+      <h1>Buscando dados de uma API externa: useEffect</h1>
+      <Todo />
     </>
   )
 }
