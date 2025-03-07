@@ -11,17 +11,17 @@ function App() {
   return (
     <>
       {/* <h1>Conteudo</h1>
-      <Conteudo />
+      <Conteudo /> */}
 
-      <h1>Props</h1>
+      {/* <h1>Props</h1>
       <div>
         <MeuBotao msg='Clique aqui' />
         <MeuBotao msg='Depois aqui' />
         <MeuBotao msg='Agora aqui' />
-      </div>
+      </div> */}
 
-      <h1>Contador</h1>
-      <Contador /> */}
+      {/* <h1>Contador</h1> */}
+      <Contador />
 
       {/* <h1>Listas no React</h1>
       <MinhaLista /> */}
@@ -29,8 +29,8 @@ function App() {
       {/* <h1>Efeito colateral em react: useEffect</h1>
       <Filter/> */}
 
-      <h1>Buscando dados de uma API externa: useEffect</h1>
-      <Todo />
+      {/* <h1>Buscando dados de uma API externa: useEffect</h1>
+      <Todo /> */}
     </>
   )
 }

@@ -1,0 +1,18 @@
+/* .module garante a estilizacao do componente em um escopo local mesmo que haja outra em escopo global com o mesmo nome
+evitando colapso entre estilos */
+
+.sunButton {
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    color: #181326;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.subButton {
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    color: #181326;
+    border-radius: 10px;
+    background-color: #a6f7;
+}
